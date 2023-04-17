@@ -1,0 +1,618 @@
+{
+  "1681763130.048599": [
+    {
+      "client_msg_id": "971ecfae-2d72-42e0-85d0-0f6e82264a0f",
+      "type": "message",
+      "text": "hey",
+      "user": "U0GN8P7L7",
+      "ts": "1681763130.048599",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "f50wQ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "hey"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0GN8FJSC"
+    },
+    {
+      "bot_id": "B053SRZERCH",
+      "type": "message",
+      "text": "You said: hey",
+      "user": "U053E3WB24T",
+      "ts": "1681763131.060859",
+      "app_id": "A053SRUNP2M",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "azeUF",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "You said: hey"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0GN8FJSC",
+      "bot_profile": {
+        "id": "B053SRZERCH",
+        "app_id": "A053SRUNP2M",
+        "name": "CodeGPT",
+        "icons": {
+          "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+          "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+          "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+        },
+        "deleted": false,
+        "updated": 1681590558,
+        "team_id": "T0GN8FJSC"
+      },
+      "thread_ts": "1681763130.048599",
+      "parent_user_id": "U0GN8P7L7"
+    },
+    {
+      "client_msg_id": "7c805cd2-a6ff-4452-b7a5-991a23758983",
+      "type": "message",
+      "text": "poop",
+      "user": "U0GN8P7L7",
+      "ts": "1681763137.301119",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "22hMw",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "poop"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0GN8FJSC",
+      "thread_ts": "1681763130.048599",
+      "parent_user_id": "U0GN8P7L7",
+      "channel": "D053CTMHE1K",
+      "event_ts": "1681763137.301119",
+      "channel_type": "im"
+    },
+    {
+      "bot_id": "B053SRZERCH",
+      "type": "message",
+      "text": "You said: poop",
+      "user": "U053E3WB24T",
+      "ts": "1681763138.293949",
+      "app_id": "A053SRUNP2M",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "bNAwk",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "You said: poop"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0GN8FJSC",
+      "bot_profile": {
+        "id": "B053SRZERCH",
+        "app_id": "A053SRUNP2M",
+        "name": "CodeGPT",
+        "icons": {
+          "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+          "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+          "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+        },
+        "deleted": false,
+        "updated": 1681590558,
+        "team_id": "T0GN8FJSC"
+      },
+      "thread_ts": "1681763130.048599",
+      "parent_user_id": "U0GN8P7L7"
+    }
+  ],
+  "1681764313.490059": [
+    {
+      "client_msg_id": "365a75f1-6b39-4786-8489-9c75f3596189",
+      "type": "message",
+      "text": "sweet",
+      "user": "U0GN8P7L7",
+      "ts": "1681764313.490059",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "UKp",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "sweet"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0GN8FJSC"
+    },
+    {
+      "bot_id": "B053SRZERCH",
+      "type": "message",
+      "text": "You said: sweet",
+      "user": "U053E3WB24T",
+      "ts": "1681764328.666669",
+      "app_id": "A053SRUNP2M",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "3ms",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "You said: sweet"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0GN8FJSC",
+      "bot_profile": {
+        "id": "B053SRZERCH",
+        "app_id": "A053SRUNP2M",
+        "name": "CodeGPT",
+        "icons": {
+          "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+          "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+          "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+        },
+        "deleted": false,
+        "updated": 1681590558,
+        "team_id": "T0GN8FJSC"
+      },
+      "thread_ts": "1681764313.490059",
+      "parent_user_id": "U0GN8P7L7"
+    }
+  ],
+  "1681764444.875819": [
+    {
+      "client_msg_id": "ea9ac339-9f24-496e-9c77-e1429930bf44",
+      "type": "message",
+      "text": "<@U053E3WB24T> seriously",
+      "user": "U0GN8P7L7",
+      "ts": "1681764444.875819",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "cfDoE",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U053E3WB24T"
+                },
+                {
+                  "type": "text",
+                  "text": " seriously"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0GN8FJSC"
+    },
+    {
+      "bot_id": "B053SRZERCH",
+      "type": "message",
+      "text": "You said: <@U053E3WB24T> seriously",
+      "user": "U053E3WB24T",
+      "ts": "1681764446.596709",
+      "app_id": "A053SRUNP2M",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "vF3",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "You said: "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U053E3WB24T"
+                },
+                {
+                  "type": "text",
+                  "text": " seriously"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0GN8FJSC",
+      "bot_profile": {
+        "id": "B053SRZERCH",
+        "app_id": "A053SRUNP2M",
+        "name": "CodeGPT",
+        "icons": {
+          "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+          "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+          "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+        },
+        "deleted": false,
+        "updated": 1681590558,
+        "team_id": "T0GN8FJSC"
+      },
+      "thread_ts": "1681764444.875819",
+      "parent_user_id": "U0GN8P7L7"
+    },
+    {
+      "client_msg_id": "8fc3a8a3-f862-4b5d-81e6-6acf2ce1ee2a",
+      "type": "message",
+      "text": "What?",
+      "user": "U0GN8P7L7",
+      "ts": "1681764451.294809",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "RXU",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "What?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0GN8FJSC",
+      "thread_ts": "1681764444.875819",
+      "parent_user_id": "U0GN8P7L7",
+      "channel": "C053SRZ97SM",
+      "event_ts": "1681764451.294809",
+      "channel_type": "channel"
+    },
+    {
+      "bot_id": "B053SRZERCH",
+      "type": "message",
+      "text": "You said: What?",
+      "user": "U053E3WB24T",
+      "ts": "1681764452.249749",
+      "app_id": "A053SRUNP2M",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "qBhe",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "You said: What?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0GN8FJSC",
+      "bot_profile": {
+        "id": "B053SRZERCH",
+        "app_id": "A053SRUNP2M",
+        "name": "CodeGPT",
+        "icons": {
+          "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+          "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+          "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+        },
+        "deleted": false,
+        "updated": 1681590558,
+        "team_id": "T0GN8FJSC"
+      },
+      "thread_ts": "1681764444.875819",
+      "parent_user_id": "U0GN8P7L7"
+    }
+  ],
+  "1681764457.735589": [
+    {
+      "client_msg_id": "5db6327e-8c90-4ffe-ad86-4bad2d7c0497",
+      "type": "message",
+      "text": "Other message",
+      "user": "U0GN8P7L7",
+      "ts": "1681764457.735589",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "C2ihK",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Other message"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0GN8FJSC",
+      "thread_ts": "1681764457.735589",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1681764472.165579",
+      "reply_users": [
+        "U0GN8P7L7"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "d2e52ac1-1926-42b4-8cc1-75ef968058e4",
+      "type": "message",
+      "text": "<@U053E3WB24T> chime in",
+      "user": "U0GN8P7L7",
+      "ts": "1681764472.165579",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "EZgWp",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U053E3WB24T"
+                },
+                {
+                  "type": "text",
+                  "text": " chime in"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0GN8FJSC",
+      "thread_ts": "1681764457.735589",
+      "parent_user_id": "U0GN8P7L7"
+    },
+    {
+      "bot_id": "B053SRZERCH",
+      "type": "message",
+      "text": "You said: <@U053E3WB24T> chime in",
+      "user": "U053E3WB24T",
+      "ts": "1681764473.724959",
+      "app_id": "A053SRUNP2M",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "rcap",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "You said: "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U053E3WB24T"
+                },
+                {
+                  "type": "text",
+                  "text": " chime in"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0GN8FJSC",
+      "bot_profile": {
+        "id": "B053SRZERCH",
+        "app_id": "A053SRUNP2M",
+        "name": "CodeGPT",
+        "icons": {
+          "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+          "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+          "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+        },
+        "deleted": false,
+        "updated": 1681590558,
+        "team_id": "T0GN8FJSC"
+      },
+      "thread_ts": "1681764457.735589",
+      "parent_user_id": "U0GN8P7L7"
+    },
+    {
+      "client_msg_id": "6e6d297f-7814-4710-98ad-4902e0a76d6d",
+      "type": "message",
+      "text": "hoohah",
+      "user": "U0GN8P7L7",
+      "ts": "1681764479.672129",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "/P5L",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "hoohah"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0GN8FJSC",
+      "thread_ts": "1681764457.735589",
+      "parent_user_id": "U0GN8P7L7",
+      "channel": "C053SRZ97SM",
+      "event_ts": "1681764479.672129",
+      "channel_type": "channel"
+    },
+    {
+      "bot_id": "B053SRZERCH",
+      "type": "message",
+      "text": "You said: hoohah",
+      "user": "U053E3WB24T",
+      "ts": "1681764480.674839",
+      "app_id": "A053SRUNP2M",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "qda2",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "You said: hoohah"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0GN8FJSC",
+      "bot_profile": {
+        "id": "B053SRZERCH",
+        "app_id": "A053SRUNP2M",
+        "name": "CodeGPT",
+        "icons": {
+          "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+          "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+          "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+        },
+        "deleted": false,
+        "updated": 1681590558,
+        "team_id": "T0GN8FJSC"
+      },
+      "thread_ts": "1681764457.735589",
+      "parent_user_id": "U0GN8P7L7"
+    },
+    {
+      "client_msg_id": "d4fc4cdb-3646-4c05-b999-8fdd31a9c487",
+      "type": "message",
+      "text": "still with me?",
+      "user": "U0GN8P7L7",
+      "ts": "1681764510.733449",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "4PIV",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "still with me?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0GN8FJSC",
+      "thread_ts": "1681764457.735589",
+      "parent_user_id": "U0GN8P7L7",
+      "channel": "C053SRZ97SM",
+      "event_ts": "1681764510.733449",
+      "channel_type": "channel"
+    },
+    {
+      "bot_id": "B053SRZERCH",
+      "type": "message",
+      "text": "You said: still with me?",
+      "user": "U053E3WB24T",
+      "ts": "1681764511.752639",
+      "app_id": "A053SRUNP2M",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "5H5",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "You said: still with me?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0GN8FJSC",
+      "bot_profile": {
+        "id": "B053SRZERCH",
+        "app_id": "A053SRUNP2M",
+        "name": "CodeGPT",
+        "icons": {
+          "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+          "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+          "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+        },
+        "deleted": false,
+        "updated": 1681590558,
+        "team_id": "T0GN8FJSC"
+      },
+      "thread_ts": "1681764457.735589",
+      "parent_user_id": "U0GN8P7L7"
+    }
+  ]
+}
