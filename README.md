@@ -38,6 +38,32 @@ Some bot logic also requires the full thread history for context, so the demo co
    - `app_mention` - To receive events when the bot is mentioned.
 6. In "Basic Information", copy the signing secret to the .env file.
 
+## Installation
+
+Make sure you have Python 3 installed on your development machine. If you don't have it, install Python 3 using your package manager or from the official website: https://www.python.org/downloads/
+
+Create a virtual environment for your project. In the terminal, navigate to the project's root directory and run the following command:
+
+```
+python3 -m venv venv
+```
+
+This will create a new virtual environment named venv in your project directory.
+
+Activate the virtual environment:
+
+```bash
+source venv/bin/activate
+```
+
+Install the required dependencies using pip. In the project directory, run:
+
+```bash
+pip install -r requirements.txt
+```
+
+This will install the packages listed in the requirements.txt file into the virtual environment.
+
 ## Running the Server
 
 ### Development
@@ -69,7 +95,7 @@ python app.py
 
 This section assumes you are using Ubuntu.
 
-Install Gunicorn, a Python WSGI HTTP server:
+After activating the virtual environment, install Gunicorn, a Python WSGI HTTP server:
 
 ```
 pip install gunicorn
