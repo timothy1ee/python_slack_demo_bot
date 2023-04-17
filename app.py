@@ -6,11 +6,20 @@ from slack_bolt.adapter.flask import SlackRequestHandler
 from slack_sdk import WebClient
 from flask import Flask, request, make_response
 
+import logging
+
+# Configure logging
+log_file = "app.log"
+logging.basicConfig(filename=log_file, level=logging.DEBUG)
+
 load_dotenv()
 
 app = Flask(__name__)
 slack_app = App(token=os.environ["SLACK_BOT_TOKEN"])
 handler = SlackRequestHandler(slack_app)
+threads = {}
+
+app.logger.info("Server started")
 
 @slack_app.event("app_mention")
 @slack_app.event("message")
