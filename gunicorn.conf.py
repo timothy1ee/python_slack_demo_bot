@@ -1,4 +1,4 @@
-workers = 4
+workers = 1
 bind = "0.0.0.0:3000"
 wsgi_app = "app:app"
 accesslog = "gunicorn.log"
