@@ -101,14 +101,6 @@ After activating the virtual environment, install Gunicorn, a Python WSGI HTTP s
 pip install gunicorn
 ```
 
-Create a new file named gunicorn.conf.py in your project directory with the following content:
-
-```python
-workers = 4
-bind = "0.0.0.0:3000"
-module = "app:app"
-```
-
 Start the server with Gunicorn:
 
 ```bash
@@ -135,8 +127,9 @@ ExecStart=<path_to_your_project_directory>/venv/bin/gunicorn -c gunicorn.conf.py
 
 [Install]
 WantedBy=multi-user.target
-Replace <your_username>, <your_group>, and <path_to_your_project_directory> with the appropriate values. If you're using a virtual environment, make sure to update the PATH and ExecStart values accordingly.
 ```
+
+Replace <your_username>, <your_group>, and <path_to_your_project_directory> with the appropriate values. If you're using a virtual environment, make sure to update the PATH and ExecStart values accordingly.
 
 After creating the slackbot.service file, run the following commands to enable and start the service:
 
