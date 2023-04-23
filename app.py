@@ -1,29 +1,35 @@
 import os
+import os.path
 import json
 from dotenv import load_dotenv
 from slack_bolt import App
 from slack_bolt.adapter.flask import SlackRequestHandler
 from slack_sdk import WebClient
 from flask import Flask, request, make_response
-
 import logging
-
-# Configure logging
-log_file = "app.log"
-logging.basicConfig(filename=log_file, level=logging.DEBUG)
 
 load_dotenv()
 
 app = Flask(__name__)
 slack_app = App(token=os.environ["SLACK_BOT_TOKEN"])
 handler = SlackRequestHandler(slack_app)
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+THREADS_FILE = os.path.join(BASE_DIR, "threads.json")
 threads = {}
 
+# app.logger.setLevel(logging.DEBUG)
 app.logger.info("Server started")
+
+@app.before_request
+def log_request_info():
+    app.logger.info(f'{request.method} {request.path} {request.remote_addr}')
 
 @slack_app.event("app_mention")
 @slack_app.event("message")
 def handle_event(body, logger):
+    app.logger.debug("Event received: %s", body)
+
     event = body["event"]
 
     if event.get("subtype") == "bot_message":
@@ -38,6 +44,8 @@ def handle_event(body, logger):
 
 
 def handle_incoming_message(event):
+    app.logger.debug("Handling incoming message: %s", event)
+
     client = WebClient(token=os.environ["SLACK_BOT_TOKEN"])
     message = event["text"]
     thread_ts = event.get("thread_ts") or event["ts"]
@@ -58,10 +66,8 @@ def handle_incoming_message(event):
     )
     threads[thread_ts].append(result["message"])
 
-    with open("threads.json", "w") as f:
+    with open(THREADS_FILE, "w") as f:
         json.dump(threads, f, indent=2)
-
-    print([message["text"] for message in threads[thread_ts]])
 
 @app.route("/slack/events", methods=["POST"])
 def slack_events():
@@ -69,12 +75,13 @@ def slack_events():
 
 def load_threads():
     try:
-        with open("threads.json", "r") as f:
+        with open(THREADS_FILE, "r") as f:
             threads = json.load(f)
     except FileNotFoundError:
         threads = {}
     return threads
 
+threads = load_threads()
+
 if __name__ == "__main__":
-    threads = load_threads()
-    app.run(port=int(os.environ.get("PORT", 3000)))
+    app.run(host='0.0.0.0', port=int(os.environ.get("PORT", 3000)), debug=True)
